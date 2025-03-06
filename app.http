@@ -1,0 +1,12 @@
+GET http://localhost:3002/users
+###
+
+POST http://localhost:3002/register
+Content-Type: application/json
+
+{
+    "employeeid":6,
+    "name":"Queen",
+    "email":"king@2025",
+    "age":31
+}
